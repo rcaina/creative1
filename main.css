@@ -1,0 +1,93 @@
+body {
+          background-image : url("purpleback.jpg");
+          background-size:cover;
+          background-repeat:no-repeat;
+          background-attachment: fixed;
+          color: #4B0082;
+
+      }
+.navbar-brand{
+    font-weight: bold;
+
+}
+#top{
+    font-weight: bold;
+    font-family: serif;
+}
+
+#hometitle{
+    
+    /*position: absolute;*/
+    z-index: 999;
+    /*margin: 0 auto;*/
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    background: white;
+    position: sticky;
+    top: 3.5rem;
+}
+#beastpic{
+    
+    position: relative;
+    alignment-baseline: central;
+    left: 100px;
+    top: 50px;
+}
+#generalpic{
+    
+    position: relative;
+    left: 600px;
+}
+#footer{
+    
+    
+    position: absolute;
+    bottom: 0 !important;
+    width: 100% !important;
+    height: 8rem !important; 
+    text-align: center;
+    font-weight: bold;
+    background: white;
+    position: sticky;
+}
+.blocktext{
+    
+    text-align: center;
+    
+}
+.container1{
+    
+      position: absolute;
+      top: 400px;
+      left: 50px;
+    
+      margin: auto;
+      background-color: #ffffff;
+      border: 1px solid black;
+      opacity: 0.6;
+      filter: alpha(opacity=60);
+  
+}
+.panel-primary {
+     background-color: #4B0082 !important;
+}
+.page-section{
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+.container3{
+    position: absolute;
+    top: 500px;
+    left: 900px;
+    margin-right: 50px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
